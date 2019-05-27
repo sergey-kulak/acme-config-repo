@@ -2,3 +2,4 @@ spring:
   data:
     mongodb:
       uri: mongodb://prUser:prPass@localhost:27017
+      database: productdb
