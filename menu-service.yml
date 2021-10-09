@@ -9,14 +9,14 @@ spring:
   liquibase:
     enabled: true
     change-log: db/changelog/master.xml
-    url: ${catalog-srv.db.uri}
+    url: ${menu-srv.db.uri}
   data:
     mongodb:
-      host: ${catalog-srv.db.host}
-      port: ${catalog-srv.db.port}
-      database: ${catalog-srv.db.database}
-      username: ${catalog-srv.db.username}
-      password: ${catalog-srv.db.password}
+      host: ${menu-srv.db.host}
+      port: ${menu-srv.db.port}
+      database: ${menu-srv.db.database}
+      username: ${menu-srv.db.username}
+      password: ${menu-srv.db.password}
   jackson:
     serialization:
       WRITE_DATES_AS_TIMESTAMPS: false
