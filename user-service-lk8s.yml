@@ -2,4 +2,4 @@ user-srv:
   db:
     url: postgresql://pg-db:5432/userdb
     user: acmeUser
-    password: @acmePas2
+    password: "@acmePas2"
