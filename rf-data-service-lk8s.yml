@@ -1,0 +1,6 @@
+rf-data-srv:
+  db:
+    host: mongo-db
+    port: 27017
+    username: acmeUser
+    password: "@acmePas2"
