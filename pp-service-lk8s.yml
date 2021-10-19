@@ -1,3 +1,8 @@
+spring:
+  rabbitmq:
+    host: rmq
+    port: 5672
+
 pp-srv:
   db:
     url: postgresql://pg-db:5432/ppdb
