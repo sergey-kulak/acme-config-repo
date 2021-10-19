@@ -1,8 +1,8 @@
-rf-data-srv:
+menu-srv:
   db:
     host: mongo-db
     port: 27017
     username: acmeUser
     password: "@acmePas2"
     passwordEncoded: "%40acmePas2"
-    uri: mongodb://${rf-data-srv.db.username}:${rf-data-srv.db.passwordEncoded}@${rf-data-srv.db.host}:${rf-data-srv.db.port}/${rf-data-srv.db.database}
+    uri: mongodb://${menu-srv.db.username}:${menu-srv.db.passwordEncoded}@${menu-srv.db.host}:${menu-srv.db.port}/${menu-srv.db.database}
