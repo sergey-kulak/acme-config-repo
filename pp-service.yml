@@ -4,7 +4,7 @@ server:
 logging:
   level:
     org.springframework: info
-    io.r2dbc.postgresql.QUERY: debug
+    io.r2dbc.postgresql.QUERY: info
     org.jooq.Constants: warn
 
 spring:
