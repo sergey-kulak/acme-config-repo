@@ -40,6 +40,9 @@ spring:
     port: 7672
     username: acmRmqUser
     password: acmRmqPa2s
+  zipkin:
+    enabled: true
+    baseUrl: http://localhost:7411/
 
 feign:
   autoconfiguration:

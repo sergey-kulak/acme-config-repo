@@ -17,6 +17,9 @@ spring:
       database: ${rf-data-srv.db.database}
       username: ${rf-data-srv.db.username}
       password: ${rf-data-srv.db.password}
+  zipkin:
+    enabled: true
+    baseUrl: http://localhost:7411/
 
 rf-data-srv:
   db:

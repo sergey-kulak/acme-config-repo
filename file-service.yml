@@ -5,6 +5,11 @@ logging:
   level:
     org.springframework: info
 
+spring:
+  zipkin:
+    enabled: true
+    baseUrl: http://localhost:7411/
+
 file-srv:
   bucket: sk-acme-system
   image:

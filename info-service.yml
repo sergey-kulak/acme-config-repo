@@ -1,3 +1,8 @@
+spring:
+  zipkin:
+    enabled: true
+    baseUrl: http://localhost:7411/
+
 acme:
   app:
     version: 1.0
