@@ -1,3 +1,9 @@
+spring:
+  zipkin:
+    baseUrl: http://zpk:9411/
+  logstash:
+    host: lgs
+
 rf-data-srv:
   db:
     host: mongo-db
