@@ -1,10 +1,8 @@
 spring:
   zipkin:
-    enabled: true
-    baseUrl: http://localhost:7411/
+    baseUrl: http://zpk:9411/
   logstash:
-    host: localhost
-    port: 7500
+    host: lgs
 
 menu-srv:
   db:
