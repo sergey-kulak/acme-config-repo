@@ -1,3 +1,9 @@
+spring:
+  zipkin:
+    baseUrl: http://zpk:9411/
+  logstash:
+    host: lgs
+    
 user-srv:
   db:
     url: postgresql://pg-db:5432/userdb

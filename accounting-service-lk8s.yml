@@ -1,3 +1,9 @@
+spring:
+  zipkin:
+    baseUrl: http://zpk:9411/
+  logstash:
+    host: lgs
+
 accounting-srv:
   db:
     url: postgresql://pg-db:5432/accountingdb
