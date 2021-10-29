@@ -1,6 +1,5 @@
 server:
   port: 7040
-  forward-headers-strategy: FRAMEWORK
 
 logging:
   level:
