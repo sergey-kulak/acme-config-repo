@@ -1,5 +1,6 @@
 server:
   port: 7060
+  forward-headers-strategy: FRAMEWORK
 
 logging:
   level:
@@ -11,7 +12,15 @@ spring:
     baseUrl: http://localhost:7411/
   logstash:
     host: localhost
-    port: 7500    
+    port: 7500
+
+springdoc:
+  api-docs:
+    path: /${spring.application.name}-swagger/v3/api-docs
+  swagger-ui:
+    path: /${spring.application.name}-swagger/ui.html
+    configUrl: /${spring.application.name}-swagger/v3/api-docs/swagger-config
+    url: /${spring.application.name}-swagger/v3/api-docs
 
 file-srv:
   bucket: sk-acme-system

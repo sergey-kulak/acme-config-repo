@@ -1,5 +1,6 @@
 server:
   port: 7020
+  forward-headers-strategy: FRAMEWORK
 
 logging:
   level:
@@ -23,6 +24,14 @@ spring:
   logstash:
     host: localhost
     port: 7500    
+
+springdoc:
+  api-docs:
+    path: /${spring.application.name}-swagger/v3/api-docs
+  swagger-ui:
+    path: /${spring.application.name}-swagger/ui.html
+    configUrl: /${spring.application.name}-swagger/v3/api-docs/swagger-config
+    url: /${spring.application.name}-swagger/v3/api-docs
 
 rf-data-srv:
   db:
